@@ -18,9 +18,9 @@ if ( selectedLayers.length === 0 ) {
 
 		nullObject.startTime = selectedLayers[i].inPoint;
 
-        nullObject.moveBefore( selectedLayers[i] );
+        	nullObject.moveBefore( selectedLayers[i] );
 
-        nullObject.name = "TRACKED_" + i;
+        	nullObject.name = "TRACKED_" + i;
 
 	}
 
